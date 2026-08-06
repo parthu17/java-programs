@@ -13,6 +13,7 @@ class StringTokenizer_Demo{
 			wordCount++;
 		}
 		System.out.println("Number of words "+wordCount);
+		sc.close();
 	}
 }
 		
