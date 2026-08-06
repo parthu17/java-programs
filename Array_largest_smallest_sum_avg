@@ -27,6 +27,7 @@ class Array_stats{
 		System.out.println("Largest "+largest);
 		System.out.println("Smallest "+smallest);
 		System.out.println("Average "+average);
+		sc.close();
 	}
 }
 		
