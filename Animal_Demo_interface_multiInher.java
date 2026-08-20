@@ -1,12 +1,18 @@
 interface Animal{
 	public void sound();
 }
-class Dog implements Animal{
+interface Canine{
+	public void barks();
+}
+class Dog implements Animal,Canine{
 	public void sound(){
 		System.out.println("Dog makes sound");
 	}
-	void barks(){
+	public void barks(){
 		System.out.println("Dog Barks");
+	}
+	void eats(){
+		System.out.println("Dog eats");
 	}
 }
 class Animal_Demo{
@@ -14,6 +20,7 @@ class Animal_Demo{
 		Dog d=new Dog();
 		d.sound();
 		d.barks();
+		d.eats();
 	}
 }
 
