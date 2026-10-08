@@ -1,3 +1,6 @@
+
+import java.util.LinkedList;
+
 class Employee{
     public String name;
     public String dept;
@@ -7,10 +10,9 @@ class Employee{
         this.dept= dept;
         this.salary=salary;
     }
-
 }
 class EmployeeCollectionFiltering{
     public static void main(String[] args) {
-        
+        List<Employee> EmployeeList=new LinkedList(Arrays.toList())
     }
 }
