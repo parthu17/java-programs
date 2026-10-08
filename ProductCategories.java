@@ -1,6 +1,5 @@
 import java.util.*;
 class ProductCategories{
-    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         Set<String> hashset=new HashSet<>();
